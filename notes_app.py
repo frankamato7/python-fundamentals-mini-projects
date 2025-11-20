@@ -10,8 +10,9 @@ while exit_confirmation == False:
                     1. Create a new note
                     2. View notes
                     3. Append to an existing note
-                    4. Exit
-                      Please select the number of your intended option: 
+                    4. Delete a note
+                    5. Exit 
+                    Please select the number of your intended option:
     """))
 
     if operation == 1:
@@ -36,6 +37,21 @@ while exit_confirmation == False:
             f.write(f"\n{append_content}")
         print('Append has been added!')
 
+    
     elif operation == 4:
+        note_to_delete = input("Enter the name of the note you want to delete: ")
+        filename = f"{note_to_delete}.txt"
+        
+        if not os.path.exists(filename):
+            print("That note does not exist!")
+        else:
+            confirmation = input(f"Are you sure you want to delete {filename}? (Y/N): ")
+            if confirmation.upper() == "Y":
+                os.remove(filename)
+                print(f"{filename} has been deleted!")
+            else:
+                print("Delete cancelled.")
+
+    elif operation == 5:
         print('Goodbye!')
         exit_confirmation = True
