@@ -12,6 +12,7 @@ This repository contains the Python mini-projects I’m building as I refresh an
 - Using the `random` module for simple game logic
 - Defining and calling functions
 - Creating and importing your own Python modules
+- File handling: reading, writing, appending, and checking file existence
 - Git and GitHub basics (init, add, commit, push)
 
 ## 📁 Mini-Projects Included
@@ -22,5 +23,6 @@ This repository contains the Python mini-projects I’m building as I refresh an
 - **todo_cli_app.py** – Command-line To-Do List app with add/view/remove/clear options
 - **calculator.py** – Reusable calculator module with arithmetic functions
 - **calculator_app.py** – CLI calculator that imports the calculator module and performs operations
+- **notes_app.py** – Notes app with create, read, append, and delete capabilities using `.txt` files
 
 More Python fundamentals mini-projects will be added here as I progress through the roadmap. While I already had experience using Python before this, I chose to start from scratch so I can properly document my progress for the record.
