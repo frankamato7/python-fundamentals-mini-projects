@@ -7,8 +7,35 @@
 - Prepare for real startup-style datasets
 
 ## Lessons & Highlights
-- **Lesson 1 – NumPy:** Arrays, shapes, indexing, vectorized math, basic statistics.
-- **Lesson 2 – pandas Intro:** Loading CSVs, exploring DataFrames, filtering, sorting, feature columns.
-- **Lesson 3 – Intermediate pandas + Data Explorer v1:** Missing values, groupby, merges, visualizations; full Data Explorer notebook over retail sales.
-- **Lesson 5 – SQL Crash Course:** SELECT, WHERE, ORDER BY, GROUP BY, JOIN; sales analysis mini-project.
-- **Lesson 6 – SQL → pandas Pipeline:** SQL queries → pandas DataFrames → matplotlib chart → CSV export.
+
+### Lesson 1 (11/21/25)
+- Installed Jupyter Notebook
+- Imported and used NumPY
+- Arrays (1D & 2D), shapes, indexing, vectorized math
+- Basic statistics
+- Completed a NumPy Mini Project 
+
+### Lesson 2 (11/22/25)
+- Installed and verified pandas
+- Loading CSVs into a DataFrame
+- exploring DataFrames
+- Filtering, sorting, feature columns
+- Completed a mini EDA project
+
+### Lesson 3 (11/24/25)
+- Practiced handling missing values
+- Groupby operations
+- DataFrame merging
+- DataFrame visualizations
+- Completed a data explorer mini project
+
+### Lesson 5 (11/25/25)
+- SQL Crash Course (SELECT, WHERE, ORDER BY, GROUP BY, JOIN)
+- Completed a sales analysis mini project
+
+### Extra Assignment (11/26/25)
+- Wrote an SQL → Pandas Pipeline
+    - Wrote analytical SQL queries
+    - Loaded SQL output into pandas
+    - Generated report-style visualization
+    - Exported cleaned summary CSV
