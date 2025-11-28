@@ -8,7 +8,7 @@ This repo contains everything I have learned on my AI automation roadmap self-ta
 ## Module Index
 - [Module 1 – Python Fundamentals](module-01-python-fundamentals/README.md)
 - [Module 2 – Intermediate Python + Data Handling](module-02-intermediate-python-data/README.md)
-- (Add modules 3–10 as you reach them)
+- [Module 3 - APIs, Web Requests, and Python Automation](module-03-apis-automation/README.md) 
 
 ## What I Learned So Far
 
