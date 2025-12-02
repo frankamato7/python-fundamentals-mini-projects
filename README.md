@@ -73,6 +73,12 @@ This repo contains everything I have learned on my AI automation roadmap self-ta
 - Reinforced environment variable use for secure credentials
 - Completed a portfolio-ready automation project
 
+### LLM Fundamentals
+- Learned core prompt engineering levers: role, structure, constraints
+- Created a reusable prompt template library
+- Built system, task, formatting, and constraint prompts
+- Practiced refining prompts for clarity, boundaries, and consistency
+- Established structured folders for LLM tooling in the 
 
 (You can compress/trim as you go, but this is a solid starting shape.)
 
