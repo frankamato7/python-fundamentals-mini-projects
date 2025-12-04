@@ -1,3 +1,2 @@
 .env
-.env # or edit manually
-.env # or edit manually
+__pycache__/

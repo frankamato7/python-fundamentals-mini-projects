@@ -1,3 +1,12 @@
+import os
+import sys
+
+# Ensure the parent directory (module-04-llm-prompt-engineering) is on sys.path
+CURRENT_DIR = os.path.dirname(__file__)
+PARENT_DIR = os.path.dirname(CURRENT_DIR)
+if PARENT_DIR not in sys.path:
+    sys.path.append(PARENT_DIR)
+
 from client import get_client
 
 # Initialize the client

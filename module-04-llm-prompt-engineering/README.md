@@ -31,3 +31,11 @@
 - Implemented client.py as a reusable OpenAI wrapper
 - Built summarizer.py using prompt engineering fundamentals
 - Added CLI usage and robust API error handling
+
+### Lesson 3 - Content Rewriter Tool (12/04/25)
+- Created rewriter.py as a style-driven rewriting tool
+- Designed system + user prompts for structured rewriting
+- Added formatting (numbered points, concise sentences)
+- Built a reusable function with error handling
+- Implemented CLI input for interactive testing
+- Fixed cross-folder imports with sys.path adjustments 
