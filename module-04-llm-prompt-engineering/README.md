@@ -39,3 +39,10 @@
 - Built a reusable function with error handling
 - Implemented CLI input for interactive testing
 - Fixed cross-folder imports with sys.path adjustments 
+
+### Lesson 4 - Email Classifier + Auto Responder (12/05/25)
+- Implemented classify_email with a controlled label set
+- Designed prompts that force a single-label response
+- Implemented generate_reply using category + tone + email content
+- Added CLI tool email_assistant.py for interactive testing
+- Built a realistic email automation flow ready for API integration
